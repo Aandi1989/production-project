@@ -1,4 +1,4 @@
-import "./index.scss";
+import "./styles/index.scss";
 import { Link, Route, Routes } from "react-router-dom";
 import AboutPage from "./pages/AboutPage/AboutPage";
 import MainPage from "./pages/MainPage/MainPage";
