@@ -6,6 +6,14 @@
     "i18n-ally.keystyle": "nested",
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
     },
     "eslint.alwaysShowStatus": true,
+    "stylelint.config":{}, // если поставить  "stylelint.config":{} то все ошибки будут игнорироваться,
+    //  если поставить  "stylelint.config":null ,будет показывать ВСЕ ошибки
+    // также внутрь объекта устанавливаем rules для stylelint
+    
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
 }
