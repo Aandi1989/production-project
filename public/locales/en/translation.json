@@ -1,10 +1,11 @@
 {
-    "Тестовый пример": "Test example",
-    "Перевод": "Translate",
-    "Главная страница": "Main page",
-    "Язык": "English",
-    "О сайте": "About us",
-    "Главная": "Main",
-    "Переключить": "Toggle",
-    "Загрузка": "Loading..."
+  "Тестовый пример": "Test example",
+  "Перевод": "Translate",
+  "Главная страница": "Main page",
+  "Язык": "English",
+  "О сайте": "About us",
+  "Главная": "Main",
+  "Переключить": "Toggle",
+  "Загрузка": "Loading...",
+  "Страница не найдена": "Page not found"
 }
