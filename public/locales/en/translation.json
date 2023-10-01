@@ -7,5 +7,8 @@
   "Главная": "Main",
   "Переключить": "Toggle",
   "Загрузка": "Loading...",
-  "Страница не найдена": "Page not found"
+  "Страница не найдена": "Page not found",
+  "Произошла непредвиденная ошибка": "Unexpected error occurred",
+  "Обновить страницу": "Refresh page",
+  "Пробросить ошибку": "Throw error"
 }
