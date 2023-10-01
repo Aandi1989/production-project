@@ -42,7 +42,7 @@ module.exports = {
         'no-underscore-dangle': 'off',
         'linebreak-style': 'off', // фиксит миллион ошибок expected linebreaks to be 'LF' but found 'CRLF'
         'i18next/no-literal-string': ['error', { markupOnly: true }],
-        'max-len': ['error', { code: 85, ignoreComments: true }],
+        'max-len': ['error', { code: 100, ignoreComments: true }],
     },
     globals: {
         __IS_DEV__: true,
