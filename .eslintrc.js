@@ -41,10 +41,18 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
         'linebreak-style': 'off', // фиксит миллион ошибок expected linebreaks to be 'LF' but found 'CRLF'
-        'i18next/no-literal-string': ['error', { markupOnly: true }],
-        'max-len': ['error', { code: 100, ignoreComments: true }],
+        'i18next/no-literal-string': ['error', { markupOnly: true, ignoreAttribute: ['data-testid'] }],
+        'max-len': ['error', { code: 120, ignoreComments: true }],
     },
     globals: {
         __IS_DEV__: true,
     },
+    overrides: [
+        {
+            files: ['**/src/**/*.test.{ts,tsx}'],
+            rules: {
+                'i18next/no-literal-string': 'off',
+            },
+        },
+    ],
 };
